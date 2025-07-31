@@ -15,13 +15,13 @@ This project is a simple, interactive web application that predicts diseases bas
 
 ## 🧰 Tech Stack
 
-| Layer         | Tool                                    |
-| ------------- | --------------------------------------- |
-| Language      | Python                                  |
-| ML Model      | Scikit-learn (Random Forest Classifier) |
-| Web Interface | Streamlit                               |
-| Data Handling | Pandas, NumPy                           |
-| Model Saving  | Joblib                                  |
+| Layer | Tool |
+|-------|------|
+| Language | Python |
+| ML Model | Scikit-learn (Random Forest Classifier) |
+| Web Interface | Streamlit |
+| Data Handling | Pandas, NumPy |
+| Model Saving | Joblib |
 
 ---
 
@@ -32,7 +32,6 @@ Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-
 ---
 
 ## 🏃‍♂️ How to Run the Project
@@ -57,7 +56,6 @@ python train_model.py
 ```
 
 This will:
-
 - Train a Random Forest Classifier on the symptom–disease dataset
 - Save the model (`rf_model.joblib`) and label encoder (`label_encoder.joblib`) in the `model/` folder
 
@@ -70,7 +68,6 @@ streamlit run app.py
 ```
 
 This will:
-
 - Open a browser window
 - Show a simple interface to select symptoms and predict diseases
 
@@ -126,6 +123,13 @@ You can deploy this app for free using [Streamlit Cloud](https://streamlit.io/cl
 - Show probability scores for top 3 predictions
 - Add chatbot or voice assistant for accessibility
 - Make the layout mobile responsive
+
+---
+
+## 👨‍💻 Author
+
+**Himanshu Rohilla**  
+🔗 [LinkedIn](https://www.linkedin.com/in/himanshurohilla7)
 
 ---
 
